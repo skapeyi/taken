@@ -314,96 +314,7 @@
 
         <!-- team-section 
             ================================================== -->
-        <section id="team-section">
-            <div class="container">
-                <div class="title-section">
-                    <h1>Meet our Medical Specialists</h1>
-                    <span></span>
-                    <p>Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p>
-                </div>
-                <div class="team-box">
-                    <div class="row">
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-post">
-                                <div class="team-member">
-                                    <img src="upload/team/1.jpg" alt="">
-                                    <div class="member-content">
-                                        <h2>Dr. Rodney Stratton</h2>
-                                        <span>Physiotherapist</span>
-                                        <p>Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-post">
-                                <div class="team-member">
-                                    <img src="upload/team/2.jpg" alt="">
-                                    <div class="member-content">
-                                        <h2>Robert Brown, Prof.</h2>
-                                        <span>Anesthesiologist</span>
-                                        <p>Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-post">
-                                <div class="team-member">
-                                    <img src="upload/team/3.jpg" alt="">
-                                    <div class="member-content">
-                                        <h2>Dr. Lita White</h2>
-                                        <span>Neurosurgeon</span>
-                                        <p>Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="team-post">
-                                <div class="team-member">
-                                    <img src="upload/team/4.jpg" alt="">
-                                    <div class="member-content">
-                                        <h2>Dr. Brick Wall</h2>
-                                        <span>Cardiac Clinic</span>
-                                        <p>Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- End team section -->
 
         <!-- reservation-section 
@@ -585,38 +496,31 @@
         <section id="clients-section">
             <div class="container">
 
-                <div class="title-section white">
-                    <h1>What our patients are saying</h1>
-                    <span></span>
-                </div>
+                
+                
+=======
+<!doctype html>
 
-                <div class="testimonial-box">
-                    <ul class="bxslider">
-                        <li>
-                            <img src="upload/others/client.jpg" alt="">
-                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim <br> pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-                            <h2>Lara Flynn Boyle</h2>
-                        </li>
-                        <li>
-                            <img src="upload/others/client.jpg" alt="">
-                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim <br> pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-                            <h2>John Doe</h2>
-                        </li>
-                        <li>
-                            <img src="upload/others/client.jpg" alt="">
-                            <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim <br> pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-                            <h2>Michele</h2>
-                        </li>
-                    </ul>
+    <body>
+        <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
+                    @endauth
                 </div>
+            @endif
 
-            </div>
+          
         </section>
         <!-- End clients section -->
 
         <!-- news-section 
             ================================================== -->
-        <section id="news-section">
+        {{-- <section id="news-section">
             <div class="container">
 
                 <div class="title-section">
@@ -681,7 +585,7 @@
                     <a href="blog.html" class="button-two">View all news</a>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- End news section -->
 
         <!-- contact-section 
@@ -722,7 +626,7 @@
                 </div>
             </div>
 
-            <div class="map"></div>
+            
 
             <div class="contact-form">
                 <div class="container">
