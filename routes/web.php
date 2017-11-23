@@ -11,8 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// Route::resource('/', function () {
+//     return view('welcome');
+// });
+
+// Route::resource('/','ReportingController');
+
+
+// Route::resource('/','ContactController');
+Route::resource('/', 'ReportingController');
+Route::get('/victims-messages','PagesController@victimsMessage');
+
+
+//Route::resource('/', '\App\Http\Controllers\ContactController');
+
+
 
 Route::post('/receive-trafficking-report','ReportController@receive_trafficking_report');

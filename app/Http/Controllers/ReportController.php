@@ -16,6 +16,8 @@ class ReportController extends Controller
     public function index()
     {
         //
+        
+
     }
 
     /**
@@ -25,7 +27,7 @@ class ReportController extends Controller
      */
     public function create()
     {
-        //
+       
     }
 
     /**
@@ -37,6 +39,7 @@ class ReportController extends Controller
     public function store(Request $request)
     {
         //
+        
     }
 
     /**
