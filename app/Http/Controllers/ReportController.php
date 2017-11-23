@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Log;
+use App\Report;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Libraries\AfricasTalkingGateway;
 
 class ReportController extends Controller
 {
@@ -80,5 +82,39 @@ class ReportController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function receive_trafficking_report(Request $request){
+
+        $content = explode(',', $request->text);
+
+        $param_count = count($content);
+        Log::info($content);
+        $report = new Report();
+        $report->raw = $request;  
+        $report->type = $content[0];
+
+        if(strtolower($content[1]) == 'victim'){
+            $report->victim_name = $content[1];
+        }
+
+        if(strtolower($content[1] == 'witness')){
+            $report->reporter_name = $content[1];
+        }
+        $report->location = $content[2];
+        $report->country = $content[3];
+        $report->hotel = $content[4];
+        $report->contact = $request->from;
+        $report->incident_date = $request->date;
+
+        try {
+            if($report->save()){
+                return "ok";
+            }
+        } catch (\Exception $e) {
+            Log::info($e);
+        }        
+        
+        return "Ok";             
     }
 }
