@@ -26,5 +26,6 @@ Contributors
 ---------------
 1. [Samson Kapeyi](http://www.skapeyi.com)
 2. [Samuel Epodoi](http://www.sam.paintnightkla.com)
+3. [Wenareeba Innocent](http://github.com/wandieinnocents)
 
 
