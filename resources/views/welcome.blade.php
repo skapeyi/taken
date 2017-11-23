@@ -25,7 +25,7 @@
             #################################
             -->
             <div class="tp-banner-container">
-                <div class="tp-banner" >
+                <div class="tp-banner">
                     <ul>    <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
                             <!-- MAIN IMAGE -->
@@ -34,7 +34,7 @@
 
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0"
-                                data-x="470"
+                                data-x="2"
                                 data-y="220" 
                                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="500"
@@ -44,12 +44,12 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Awesome Theme for Medical, <br> Hospital and Health Websites
+                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="color:white;">HUMAN TRAFFICKING</span>
                             </div>
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption finewide_medium_white lfr tp-resizeme rs-parallaxlevel-0"
-                                data-x="440"
+                                data-x="2"
                                 data-y="280" 
                                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="500"
@@ -59,12 +59,12 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">We care <span>about <br>your health </span>
+                                style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Report suspicious <br>incidents now!. 
                             </div>
 
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"
-                                data-x="470"
+                                data-x="2"
                                 data-y="475" 
                                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="500"
@@ -75,7 +75,7 @@
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
                                 data-linktoslide="next"
-                                style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'>Read More</a>
+                                style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='trans-btn'><span style="color:white;">REPORT</span></a>
                             </div>
 
                         </li>
@@ -83,7 +83,7 @@
                         <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"  data-title="Ken Burns Slide">
                             <!-- MAIN IMAGE -->
-                            <img src="images/dummy.png"  alt="2" data-lazyload="upload/slide/2.jpg" data-bgposition="right top" data-kenburns="on" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                            <img src="upload/slide/2.jpg"  alt="2" data-lazyload="upload/slide/2.jpg" data-bgposition="right top" data-kenburns="on" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -98,7 +98,7 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Awesome Theme for Medical, Hospital and Health Websites
+                                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><span style="color:white;">with the platform you any phone user can access it</span>
                             </div>
 
                             <!-- LAYER NR. 2 -->
@@ -112,7 +112,7 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Take your place</span> And Reserve <br> now in our <span>hospital</span> !
+                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>simply use our</span>  ussd codes <br> 6990 <span>AND SAVE A LIFE</span>
                             </div>
 
                             <!-- LAYER NR. 4 -->
@@ -134,7 +134,7 @@
                         <!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="Parallax 3D">
                             <!-- MAIN IMAGE -->
-                            <img src="upload/slide/3.jpg"  alt="3dbg" data-lazyload="upload/slide/3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="upload/slide/4.jpg"  alt="3dbg" data-lazyload="upload/slide/4.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -149,7 +149,7 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Awesome Theme for Medical, Hospital and Health Websites
+                                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">
                             </div>
 
                             <!-- LAYER NR. 2 -->
@@ -163,7 +163,7 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Awesome Theme for Medical</span> <br> and <br> <span>Health Websites</span>
+                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>Every 30 Seconds  A person</span> <br> becomes A Victim</span>
                             </div>
 
                             <!-- LAYER NR. 1 -->
@@ -186,6 +186,62 @@
                 </div>
             </div>
         </section>
+
+        <div class="container">
+            
+        </div>
+        <!-- reportiing section -->
+         <section id="reservation-section" >
+
+           <div id="reservation-section1">
+                <div class="container" >
+                <div class="title-section white" >
+                    <h1>Make Report</h1>
+                    <span></span>
+                </div>
+                <div class="reservation-box" >
+                    <form class="reservation-form">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label for="fname">First Name:</label>
+                                <input type="text" name="fname" id="fname" />
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" name="lname" id="lname" />
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="phone-number">Phone Number:</label>
+                                <input type="text" name="phone-number" id="phone-number" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label for="email-address">EMAIL ADDRESS:</label>
+                                <input type="text" name="email-address" id="email-address" />
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="appointment-date">Appointment Date:</label>
+                                <input type="text" name="appointment-date" id="appointment-date" />
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="pattient">Patient:</label>
+                                <input type="text" name="pattient" id="pattient" />
+                            </div>
+                        </div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message"></textarea>
+                        <div class="submit-area">
+                            <input type="submit" value="make a reservation" id="make_reservation" />
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+           </div>
+
+        </section>
+        <!-- end of reporting seciton-->
         <!-- End home section -->
 
         <!-- about-section 
@@ -193,8 +249,8 @@
         <section id="about-section">
             <div class="title-section white">
                 <div class="container">
-                    <h1>Welcome to imago</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. </p>
+                    <h1>Welcome to Taken</h1>
+                    <p>Taken is an online and offline platform created to put a limit on human trafficking around the world.You are simply required to provide some information incase of any suspicious incidents by filling the reporting form and we shall be able to save a life. </p>
                 </div>
             </div>
             <div class="about-box">
@@ -463,7 +519,7 @@
         <section id="statistic-section">
             <div class="container">
                 <div class="title-section">
-                    <h1>ABOUT <span>imago</span> <br> Hospital and Health Websites</h1>
+                    <h1>ABOUT <span>TAKEN USERS</h1>
                 </div>
                 <div class="statistic-box">
                     <div class="statistic-post">
@@ -493,29 +549,7 @@
 
         <!-- clients-section 
             ================================================== -->
-        <section id="clients-section">
-            <div class="container">
-
-                
-                
-=======
-<!doctype html>
-
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-          
-        </section>
+       
         <!-- End clients section -->
 
         <!-- news-section 
