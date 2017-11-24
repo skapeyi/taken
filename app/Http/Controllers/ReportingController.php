@@ -40,7 +40,7 @@ class ReportingController extends Controller
         //
         
                 Reporting::create(request()->all());
-                return redirect('/')->with('message', 'Message sent!');
+                return redirect('/')->with('message', 'You have successfuly submitted your report.!');
 
     }
 

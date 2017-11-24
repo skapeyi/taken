@@ -36,12 +36,19 @@
                     {{csrf_field()}}
                         <div class="row">
                             <div class="col-sm-4">
-                                <label for="fname">Raw</label>
-                                <input type="text" name="raw" id="fname" />
+                            <br><br>
+                                <label for="fname" >Upload a Photo</label>
+                                <input type="file" name="raw" id="fname" />
                             </div>
+                            <br><br>
                             <div class="col-sm-4">
-                                <label for="lname">Type</label>
-                                <input type="text" name="type" id="lname" />
+                                <label for="fname" >Select Type</label>
+                                <select class="form-control"  name="type">
+                            <option value="victim">Victim</option>
+                            <option value="witness">Witness</option>
+                            
+                        </select>
+
                             </div>
                             <div class="col-sm-4">
                                 <label for="phone-number">Victim Name</label>
@@ -82,7 +89,7 @@
                         <label for="message">Message:</label>
                         <textarea name="evidence_url" id="message"></textarea>
                         <div class="submit-area">
-                            <input type="submit" value="make a reservation" id="make_reservation" />
+                            <input type="submit" value="Submit Report" id="make_reservation" />
                         </div>
 
 
