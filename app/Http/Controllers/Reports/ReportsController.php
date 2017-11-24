@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 use Log;
 use App\Report;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Libraries\AfricasTalkingGateway;
-use DataTables;
+use App\Http\Controllers\Controller;
 
-class ReportController extends Controller
+
+class ReportsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,8 @@ class ReportController extends Controller
      */
     public function index()
     {
-         return view('welcome');
+        //
+        return view('reports.reports');
     }
 
     /**
@@ -26,7 +27,7 @@ class ReportController extends Controller
      */
     public function create()
     {
-       
+        //
     }
 
     /**
@@ -37,9 +38,7 @@ class ReportController extends Controller
      */
     public function store(Request $request)
     {
-         Report::create(request()->all());
-                return redirect('/')->with('message', 'Thanks for your fight against human trafficking!');
-        
+        //
     }
 
     /**
@@ -87,48 +86,5 @@ class ReportController extends Controller
         //
     }
 
-    public function receive_trafficking_report(Request $request){
-
-        $content = explode(',', $request->text);
-
-        $param_count = count($content);
-        Log::info($content);
-        $report = new Report();
-        $report->raw = $request;  
-        $report->type = $content[0];
-
-        if(strtolower($content[0]) == 'victim'){
-            $report->victim_name = $content[1];
-        }
-
-        if(strtolower($content[0] == 'witness')){
-            $report->reporter_name = $content[1];
-        }
-        $report->location = $content[2];
-        $report->country = $content[3];
-        $report->hotel = $content[4];
-        $report->contact = $request->from;
-        $report->incident_date = $request->date;
-
-        try {
-            if($report->save()){
-                return "ok";
-            }
-        } catch (\Exception $e) {
-            Log::info($e);
-        }        
-        
-        return "Ok";             
-    }
-
-    public function reports()
-    {
-        //
-        return view('reports.reports');
-    }
-
-    public function getReports()
-    {
-        return \DataTables::of(Report::query())->make(true);
-    }
+    
 }

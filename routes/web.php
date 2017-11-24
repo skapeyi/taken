@@ -12,6 +12,12 @@
 */
 
 
+Route::get('/reports', 'ReportController@reports');
+
+Route::post('/receive-trafficking-report','ReportController@receive_trafficking_report');
+
+Route::get('reports/getallreports', 'ReportController@getReports')->name('reports/getallreports');
+
 // Route::resource('/', function () {
 //     return view('welcome');
 // });
@@ -29,3 +35,4 @@ Route::get('/victims-messages','PagesController@victimsMessage');
 
 
 Route::post('/receive-trafficking-report','ReportController@receive_trafficking_report');
+
