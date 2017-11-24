@@ -4,7 +4,7 @@
 <html lang="en" class="no-js">
 
 <head>
-    <title>Imago</title>
+    <title>Taken - Human Trafficking Reporting</title>
 
     <meta charset="utf-8">
 
@@ -19,7 +19,6 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
     <!-- REVOLUTION BANNER CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
@@ -46,6 +45,7 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/gmap3.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/52045bbe38.js"></script>
 
 </head>
 <body>

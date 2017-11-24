@@ -16,7 +16,7 @@ class ReportController extends Controller
      */
     public function index()
     {
-        //
+         return view('welcome');
     }
 
     /**
@@ -26,7 +26,7 @@ class ReportController extends Controller
      */
     public function create()
     {
-        //
+       
     }
 
     /**
@@ -37,7 +37,9 @@ class ReportController extends Controller
      */
     public function store(Request $request)
     {
-        //
+         Report::create(request()->all());
+                return redirect('/')->with('message', 'Thanks for your fight against human trafficking!');
+        
     }
 
     /**
