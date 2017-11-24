@@ -109,35 +109,27 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="about-post">
-                                <a href="#" data-link="1" class="active"><i class="fa fa-clock-o"></i></a>
+                                <a href="#" data-link="1"><i class="fa fa-link"></i></a>
                                 <h2>Victim Reports</h2>
-                                <p>Lost and you need help?  </p>
+                                <p>Taken allows victims to report of their abduction so authorities can follow them up for rescue through a simple sms and through a web application. </p>
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="about-post">
                                 <a href="#" data-link="2"><i class="fa fa-user-md"></i></a>
                                 <h2>Witness Reports</h2>
-                                <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
+                                <p>Taken allows witnesses to report suspicious cases to authorities so the victims can be rescued from their captors through  mobile and SMS applications. </p>
                             </div>
-                        </div>
+                        </div>                       
 
-                        <div class="col-md-3 col-sm-6">
-                            <div class="about-post">
-                                <a href="#" data-link="3"><i class="fa fa-phone"></i></a>
-                                <h2>SMS Reporting</h2>
-                                <p>Donec nec justo eget felis facilisis fermentum.  </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="about-post">
                                 <a href="#" data-link="4"><i class="fa fa-android"></i></a>
                                 <h2>Awareness</h2>
-                                <p>Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. </p>
+                                <p>Through the information collected from the various reports, Taken raises awareness about Human Trafficking and areas in which it is most rampant. </p>
                             </div>
                         </div>
 
@@ -150,7 +142,7 @@
                         <div class="row">
                             <div class="col-md-8 triggerAnimation animated" data-animate="fadeInLeft">
                                 <div class="image-content">
-                                    <img src="images/dev1.png" alt="">
+                                    <img src="images/taken_screen.png" alt="Taken">
                                 </div>
                             </div>
                             <div class="col-md-4 triggerAnimation animated" data-animate="fadeInRight">
