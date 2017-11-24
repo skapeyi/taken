@@ -139,6 +139,6 @@ class ReportController extends Controller
 
     public function getWhistleReports()
     {
-        return \DataTables::of(Report::query()->where('type','Whistle'))->make(true);
+        return \DataTables::of(Report::query()->where('type','witness'))->make(true);
     }
 }
