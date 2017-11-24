@@ -96,12 +96,12 @@ class ReportController extends Controller
         $report = new Report();
         $report->raw = $request;  
         $report->type = $content[0];
-
+        Log::info($content[0]);
         if(strtolower($content[0]) == 'victim'){
             $report->victim_name = $content[1];
         }
 
-        if(strtolower($content[0] == 'witness')){
+        if(strtolower($content[0]) == 'witness'){
             $report->reporter_name = $content[1];
         }
         $report->location = $content[2];
