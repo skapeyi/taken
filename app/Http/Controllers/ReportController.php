@@ -6,6 +6,8 @@ use App\Report;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Libraries\AfricasTalkingGateway;
 use DataTables;
+use Illuminate\Support\Facades\DB;
+use Charts;
 
 class ReportController extends Controller
 {
@@ -125,6 +127,27 @@ class ReportController extends Controller
     {
         //
         return view('reports.reports');
+    }
+
+    public function statisitics()
+    {
+        $reports = DB::table('reports')->get();
+
+        $chart = Charts::database($reports, 'bar', 'highcharts')
+                  ->title("Human trafficking Reports")
+                  ->elementLabel("Total Reports")
+                  ->dimensions(1000, 500)
+                  ->responsive(false)
+                  ->groupByMonth(date('Y'), true);
+
+       $piechart = Charts::create('pie', 'highcharts')
+        ->title('Human trafficking Reports By Category')
+        ->labels(['Total Reports', 'Victims', 'Witnesses'])
+        ->values([150,90,60])
+        ->dimensions(1000,500)
+        ->responsive(false);
+
+        return view('reports.statistics',compact('chart'), compact('piechart'));
     }
 
     public function getReports()

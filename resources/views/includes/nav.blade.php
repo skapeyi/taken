@@ -20,6 +20,7 @@
                      
                        <li><a href="#reservation-section">Report Case</a></li>
                        <li><a href="/reports">Trafficking Reports</a></li>
+                       <li><a href="/statistics">Statistical Reports</a></li>
                        
                                 
                             </ul>

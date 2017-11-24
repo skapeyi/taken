@@ -13,6 +13,7 @@
 
 
 Route::get('/reports', 'ReportController@reports');
+Route::get('/statistics', 'ReportController@statisitics');
 
 Route::post('/receive-trafficking-report','ReportController@receive_trafficking_report');
 
