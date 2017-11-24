@@ -70,7 +70,7 @@
                                 <th>Location</th>
                                 <th>Country of Origin</th>
                                 <th>Contact</th>
-                                <th>Hotel</th>
+                                <th>Hotel/Land Mark</th>
                                 <th>Time of Reporting</th>
                                 <th>Photo</th>
                             </tr>
@@ -79,25 +79,39 @@
                             </div>
                             </div>
                             <div class="tab-pane" id="option2">
-                                <img src="upload/blog/1.jpg" alt="">
-                                <h2>Easy Customizable</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="row">
+                                <table class="table table-hover table-bordered table-striped victimdatatable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Victim</th>
+                                <th>Location</th>
+                                <th>Country of Origin</th>
+                                <th>Contact</th>
+                                <th>Hotel/Land Mark</th>
+                                <th>Time of Reporting</th>
+                                <th>Photo</th>
+                            </tr>
+                        </thead>
+                    </table>
+                            </div>
 
                             </div>
                             <div class="tab-pane" id="option3">
-                                <img class="left-order" src="upload/blog/1.jpg" alt="">
-                                <h2>Retina Ready</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="row">
+                                <table class="table table-hover table-bordered table-striped whistleblowerdatatable" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Victim</th>
+                                <th>Location</th>
+                                <th>Country of Origin</th>
+                                <th>Contact</th>
+                                <th>Hotel/Land Mark</th>
+                                <th>Time of Reporting</th>
+                                <th>Photo</th>
+                            </tr>
+                        </thead>
+                    </table>
+                            </div>
 
                             </div>
                         </div>
@@ -127,6 +141,36 @@ $(document).ready(function() {
         columns: [
             {data: 'victim_name', name: 'victim_name'},
             {data: 'reporter_name', name: 'reporter_name'},
+            {data: 'location', name: 'location'},
+            {data: 'country', name: 'country'},
+            {data: 'contact', name: 'contact'},
+            {data: 'hotel', name: 'hotel'},
+            {data: 'incident_date', name: 'incident_date'},
+            {data: 'evidence_url', name: 'evidence_url'},
+        ]
+    });
+
+    $('.victimdatatable').DataTable({
+        processing: true,
+        serverSide: true,
+        ajax: '{{ route('reports/getvictimreports') }}',
+        columns: [
+            {data: 'victim_name', name: 'victim_name'},
+            {data: 'location', name: 'location'},
+            {data: 'country', name: 'country'},
+            {data: 'contact', name: 'contact'},
+            {data: 'hotel', name: 'hotel'},
+            {data: 'incident_date', name: 'incident_date'},
+            {data: 'evidence_url', name: 'evidence_url'},
+        ]
+    });
+
+    $('.whistleblowerdatatable').DataTable({
+        processing: true,
+        serverSide: true,
+        ajax: '{{ route('reports/getwhistlereports') }}',
+        columns: [
+            {data: 'victim_name', name: 'victim_name'},
             {data: 'location', name: 'location'},
             {data: 'country', name: 'country'},
             {data: 'contact', name: 'contact'},
