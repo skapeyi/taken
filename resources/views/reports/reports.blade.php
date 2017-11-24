@@ -69,8 +69,7 @@
                                 <th>Whistle Blower</th>
                                 <th>Location</th>
                                 <th>Country of Origin</th>
-                                <th>Contact</th>
-                                <th>Hotel/Land Mark</th>
+                                <th>Hotel/Landmark</th>
                                 <th>Time of Reporting</th>
                                 <th>Photo</th>
                             </tr>
@@ -87,9 +86,8 @@
                                 <th>Location</th>
                                 <th>Country of Origin</th>
                                 <th>Contact</th>
-                                <th>Hotel/Land Mark</th>
+                                <th>Hotel/Landmark</th>
                                 <th>Time of Reporting</th>
-                                <th>Photo</th>
                             </tr>
                         </thead>
                     </table>
@@ -104,8 +102,7 @@
                                 <th>Victim</th>
                                 <th>Location</th>
                                 <th>Country of Origin</th>
-                                <th>Contact</th>
-                                <th>Hotel/Land Mark</th>
+                                <th>Hotel/Landmark</th>
                                 <th>Time of Reporting</th>
                                 <th>Photo</th>
                             </tr>
@@ -143,7 +140,6 @@ $(document).ready(function() {
             {data: 'reporter_name', name: 'reporter_name'},
             {data: 'location', name: 'location'},
             {data: 'country', name: 'country'},
-            {data: 'contact', name: 'contact'},
             {data: 'hotel', name: 'hotel'},
             {data: 'incident_date', name: 'incident_date'},
             {data: 'evidence_url', name: 'evidence_url'},
@@ -161,7 +157,6 @@ $(document).ready(function() {
             {data: 'contact', name: 'contact'},
             {data: 'hotel', name: 'hotel'},
             {data: 'incident_date', name: 'incident_date'},
-            {data: 'evidence_url', name: 'evidence_url'},
         ]
     });
 
@@ -173,7 +168,6 @@ $(document).ready(function() {
             {data: 'victim_name', name: 'victim_name'},
             {data: 'location', name: 'location'},
             {data: 'country', name: 'country'},
-            {data: 'contact', name: 'contact'},
             {data: 'hotel', name: 'hotel'},
             {data: 'incident_date', name: 'incident_date'},
             {data: 'evidence_url', name: 'evidence_url'},
