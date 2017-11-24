@@ -1,6 +1,6 @@
 Taken
 =============
-Taken is a platform to help human trafficking victims leave a clue behind so that people who might be looking for them have a place to start. 
+[Taken](http://taken.skapeyi.com) is a platform to help human trafficking victims leave a clue behind so that people who might be looking for them have a place to start. 
 
 Taken will also be used by human trafficking witnesses to speak out and also provide information to authorities about cases they might have witnessed in a bid to help put a stop to human trafficking. 
 

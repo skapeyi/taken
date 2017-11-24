@@ -112,31 +112,31 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="about-post">
                                 <a href="#" data-link="1" class="active"><i class="fa fa-clock-o"></i></a>
-                                <h2>24 Hours Service</h2>
-                                <p>Donec odio. Quisque volutpat mattis eros. Nullam malesuada </p>
+                                <h2>Victim Reports</h2>
+                                <p>Lost and you need help?  </p>
                             </div>
                         </div>
 
                         <div class="col-md-3 col-sm-6">
                             <div class="about-post">
                                 <a href="#" data-link="2"><i class="fa fa-user-md"></i></a>
-                                <h2>Qualified Doctors</h2>
+                                <h2>Witness Reports</h2>
                                 <p>Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. </p>
                             </div>
                         </div>
 
                         <div class="col-md-3 col-sm-6">
                             <div class="about-post">
-                                <a href="#" data-link="3"><i class="fa fa-heart"></i></a>
-                                <h2>Cardio Monitoring</h2>
+                                <a href="#" data-link="3"><i class="fa fa-phone"></i></a>
+                                <h2>SMS Reporting</h2>
                                 <p>Donec nec justo eget felis facilisis fermentum.  </p>
                             </div>
                         </div>
 
                         <div class="col-md-3 col-sm-6">
                             <div class="about-post">
-                                <a href="#" data-link="4"><i class="fa fa-building"></i></a>
-                                <h2>Great Infrastructure</h2>
+                                <a href="#" data-link="4"><i class="fa fa-android"></i></a>
+                                <h2>Awareness</h2>
                                 <p>Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. </p>
                             </div>
                         </div>
@@ -321,27 +321,27 @@
         <section id="statistic-section">
             <div class="container">
                 <div class="title-section">
-                    <h1>ABOUT <span>TAKEN USERS</h1>
+                    <h1>Current <span> Progress</h1>
                 </div>
                 <div class="statistic-box">
                     <div class="statistic-post">
                         <i class="fa fa-stethoscope"></i>
-                        <h2>OUR STAFF</h2>
+                        <h2>Victim Reports</h2>
                         <p><span class="timer" data-from="0" data-to="70"></span></p>
                     </div>
                     <div class="statistic-post">
-                        <i class="fa fa-hospital-o"></i>
-                        <h2>CLINIC ROOMS</h2>
+                        <i class="fa fa-user-secret"></i>
+                        <h2>Witness  Reports</h2>
                         <p><span class="timer" data-from="0" data-to="50"></span>+</p>
                     </div>
                     <div class="statistic-post">
-                        <i class="fa fa-ambulance"></i>
-                        <h2>MACHINES</h2>
+                        <i class="fa fa-search"></i>
+                        <h2>Victim Searches</h2>
                         <p><span class="timer" data-from="0" data-to="100"></span>+</p>
                     </div>
                     <div class="statistic-post">
-                        <i class="fa fa-trophy"></i>
-                        <h2>Awwards</h2>
+                        <i class="fa fa-bed"></i>
+                        <h2>Collaborating Hotels</h2>
                         <p><span class="timer" data-from="0" data-to="99"></span></p>
                     </div>
                 </div>
@@ -355,74 +355,7 @@
         <!-- End clients section -->
 
         <!-- news-section 
-            ================================================== -->
-        {{-- <section id="news-section">
-            <div class="container">
 
-                <div class="title-section">
-                    <h1>Latest News</h1>
-                    <span></span>
-                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </p>
-                </div>
-
-                <div class="news-box">
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="news-post">
-                                <img src="upload/blog/news1.jpg" alt="">
-                                <div class="news-cont">
-                                    <h2><a href="single-post.html">Cras ornare tristique elit.</a></h2>
-                                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                    <a href="single-post.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="news-post">
-                                <img src="upload/blog/news2.jpg" alt="">
-                                <div class="news-cont">
-                                    <h2><a href="single-post.html">Cras ornare tristique elit.</a></h2>
-                                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                    <a href="single-post.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <div class="news-post">
-                                <img src="upload/blog/news3.jpg" alt="">
-                                <div class="news-cont">
-                                    <h2><a href="single-post.html">Cras ornare tristique elit.</a></h2>
-                                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                    <a href="single-post.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="news-post">
-                                <img src="upload/blog/news4.jpg" alt="">
-                                <div class="news-cont">
-                                    <h2><a href="single-post.html">Cras ornare tristique elit.</a></h2>
-                                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-                                    <a href="single-post.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="show-more">
-                    <a href="blog.html" class="button-two">View all news</a>
-                </div>
-            </div>
-        </section> --}}
-        <!-- End news section -->
 
         <!-- contact-section 
             ================================================== -->
@@ -436,59 +369,26 @@
                     </div>
                     <div class="contact-info-box">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <span><i class="fa fa-clock-o"></i></span>
                                 <h2>Opening Hours</h2>
-                                <p> Monday - Thursday <br> 7.00 - 21.00</p>
-                                <p> Friday - Sunday <br> 7.00 - 23.00</p>
+                                <p> Monday - Fridat <br> 0900hrs - 2100hrs</p>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <span><i class="fa fa-map-marker"></i></span>
                                 <h2>Head Office</h2>
-                                <p>795 Fake Ave, Door 6 <br> Wonderland, CA 94107, USA</p>
+                                <p>Plot 62 <br> Kanjokya House, Kampala, Uganda</p>
                             </div>
-                            <div class="col-md-3">
-                                <span><i class="fa fa-phone"></i></span>
-                                <h2>Call Us</h2>
-                                <p> Phone: +351123456789 <br> Fax: +351987654321</p>
-                            </div>
-                            <div class="col-md-3">
+                           
+                            <div class="col-md-4">
                                 <span><i class="fa fa-envelope"></i></span>
                                 <h2>Email Us</h2>
-                                <p> info@marble.com <br> support@marble.com</p>
+                                <p> support@taken.com<br></p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            
-
-            <div class="contact-form">
-                <div class="container">
-                    <form id="contact-form" action="" method="POST">
-                    {{csrf_field()}}
-                        <h2>GET IN TOUCH</h2>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input name="name" id="name" type="text" placeholder="Name(Required)">
-                            </div>
-                            <div class="col-md-4">
-                                <input name="email" id="mail" type="text" placeholder="Email(Required)">
-                            </div>
-                            <div class="col-md-4">
-                                <input name="website" id="website" type="text" placeholder="Website">
-                            </div>
-                        </div>
-                        <textarea name="message" id="comment" placeholder="Your Message(Required)"></textarea>
-                        <div class="submit-area">
-                            <input type="submit" id="submit_contact" value="Send Message">
-                            <div id="msg" class="message"></div>                                
-                        </div>
-                    </form>
-                </div>
-            </div>
-
+            </div>       
         </section>
         <!-- End contact section -->
 
