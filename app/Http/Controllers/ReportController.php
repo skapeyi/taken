@@ -131,4 +131,14 @@ class ReportController extends Controller
     {
         return \DataTables::of(Report::query())->make(true);
     }
+
+    public function getVictimReports()
+    {
+        return \DataTables::of(Report::query()->where('type','Victim'))->make(true);
+    }
+
+    public function getWhistleReports()
+    {
+        return \DataTables::of(Report::query()->where('type','witness'))->make(true);
+    }
 }

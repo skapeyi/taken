@@ -18,6 +18,10 @@ Route::post('/receive-trafficking-report','ReportController@receive_trafficking_
 
 Route::get('reports/getallreports', 'ReportController@getReports')->name('reports/getallreports');
 
+Route::get('reports/getvictimreports', 'ReportController@getVictimReports')->name('reports/getvictimreports');
+
+Route::get('reports/getwhistlereports', 'ReportController@getWhistleReports')->name('reports/getwhistlereports');
+
 // Route::resource('/', function () {
 //     return view('welcome');
 // });
