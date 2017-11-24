@@ -89,11 +89,9 @@
                         <label for="message">Message:</label>
                         <textarea name="evidence_url" id="message"></textarea>
                         <div class="submit-area">
-<<<<<<< HEAD
-                            <input type="submit" value="Submit Report" id="make_reservation" />
-=======
+
                             <input type="submit" value="Report Case" id="make_reservation" />
->>>>>>> c9191f6a4be304bc37574c6cf71ef7ff2ea6a494
+
                         </div>
 
 
