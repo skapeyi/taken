@@ -39,6 +39,13 @@ class ReportsController extends Controller
     public function store(Request $request)
     {
         //
+<<<<<<< HEAD:app/Http/Controllers/ReportingController.php
+        
+                Reporting::create(request()->all());
+                return redirect('/')->with('message', 'You have successfuly submitted your report.!');
+
+=======
+>>>>>>> c9191f6a4be304bc37574c6cf71ef7ff2ea6a494:app/Http/Controllers/Reports/ReportsController.php
     }
 
     /**

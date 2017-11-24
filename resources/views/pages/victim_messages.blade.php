@@ -58,7 +58,7 @@
 
 						<div class="tab-content">
 							<div class="tab-pane active" id="option1">
-								<h2>Fully Responsive</h2>
+								<h2>Message one</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -66,7 +66,7 @@
 							</div>
 							<div class="tab-pane" id="option2">
 								<img src="upload/blog/1.jpg" alt="">
-								<h2>Easy Customizable</h2>
+								<h2>Message two</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -77,7 +77,7 @@
 							</div>
 							<div class="tab-pane" id="option3">
 								<img class="left-order" src="upload/blog/1.jpg" alt="">
-								<h2>Retina Ready</h2>
+								<h2>Message threee</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
