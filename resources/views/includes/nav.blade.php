@@ -18,49 +18,9 @@
                     <li class=""><a class="active" href="#home-section">Home</a>
                      
                      
-                       <li><a href="#reservation-section">View Reports</a></li>
-                       <li class="megadrop"><a href="#">Report Categories</a>
-                        <div class="megadrop-down">
-                            <div class="dropdown">
-                                <div class="row">
-                                    <div class="col-md-5 col-sm-5">
-                                        <h2>VICTIMS</h2>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <ul>
-                                                    <li><a href="{{ url('victims-messages') }}">MESSAGES</a></li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <ul>
-                                                    <li><a href="portfolio-black-3col.html">VICTIM STATISTICS</a></li>
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 col-sm-5">
-                                        <h2>SYSTEM UPDATES</h2>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <ul>
-                                                    <li><a href="blog.html">DANGER REPORTS</a></li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <ul>
-                                                    <li><a href="blog-vertical-grid.html">STATISTICAL REPORTS</a></li>
-                                                    
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>S
-
-                                    
-                                    
-                                </li>
+                       <li><a href="#reservation-section">Report Case</a></li>
+                       <li><a href="/reports">Trafficking Reports</a></li>
+                       
                                 
                             </ul>
                         </div><!-- /.navbar-collapse -->
