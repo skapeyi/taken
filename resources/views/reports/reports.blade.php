@@ -99,7 +99,7 @@
                                 <table class="table table-hover table-bordered table-striped whistleblowerdatatable" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Victim</th>
+                                <th>Witness</th>
                                 <th>Location</th>
                                 <th>Country of Origin</th>
                                 <th>Hotel/Landmark</th>
@@ -165,7 +165,7 @@ $(document).ready(function() {
         serverSide: true,
         ajax: '{{ route('reports/getwhistlereports') }}',
         columns: [
-            {data: 'victim_name', name: 'victim_name'},
+            {data: 'reporter_name', name: 'reporter_name'},
             {data: 'location', name: 'location'},
             {data: 'country', name: 'country'},
             {data: 'hotel', name: 'hotel'},
