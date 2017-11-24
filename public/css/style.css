@@ -1174,7 +1174,7 @@ a.button-two:hover {
 }
 #reservation-section {
   padding: 55px 0 60px;
-  background: url('../upload/banners/2.jpg') center center fixed;
+  background: url('../upload/banners/trafficking_0.jpg') center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4858,4 +4858,10 @@ footer p.copyright {
   #statistic-section .statistic-post {
     width: 100%;
   }
+}
+
+.dataTables_filter{
+  float: right;
+  margin-top: -3%;
+  margin-bottom: 2%;
 }

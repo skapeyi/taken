@@ -1,11 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Reporting;
+use Log;
+use App\Report;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class ReportingController extends Controller
+
+class ReportsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +17,7 @@ class ReportingController extends Controller
     public function index()
     {
         //
-        return view('welcome');
+        return view('reports.reports');
     }
 
     /**
@@ -26,7 +28,6 @@ class ReportingController extends Controller
     public function create()
     {
         //
-        return view('welcome');
     }
 
     /**
@@ -38,19 +39,22 @@ class ReportingController extends Controller
     public function store(Request $request)
     {
         //
+<<<<<<< HEAD:app/Http/Controllers/ReportingController.php
         
                 Reporting::create(request()->all());
                 return redirect('/')->with('message', 'You have successfuly submitted your report.!');
 
+=======
+>>>>>>> c9191f6a4be304bc37574c6cf71ef7ff2ea6a494:app/Http/Controllers/Reports/ReportsController.php
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Reporting  $reporting
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Reporting $reporting)
+    public function show($id)
     {
         //
     }
@@ -58,10 +62,10 @@ class ReportingController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Reporting  $reporting
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Reporting $reporting)
+    public function edit($id)
     {
         //
     }
@@ -70,10 +74,10 @@ class ReportingController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Reporting  $reporting
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Reporting $reporting)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -81,11 +85,13 @@ class ReportingController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Reporting  $reporting
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Reporting $reporting)
+    public function destroy($id)
     {
         //
     }
+
+    
 }

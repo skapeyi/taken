@@ -5,6 +5,7 @@ use Log;
 use App\Report;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Libraries\AfricasTalkingGateway;
+use DataTables;
 
 class ReportController extends Controller
 {
@@ -15,9 +16,7 @@ class ReportController extends Controller
      */
     public function index()
     {
-        //
-        
-
+         return view('welcome');
     }
 
     /**
@@ -38,7 +37,8 @@ class ReportController extends Controller
      */
     public function store(Request $request)
     {
-        //
+         Report::create(request()->all());
+                return redirect('/')->with('message', 'Thanks for your fight against human trafficking!');
         
     }
 
@@ -119,5 +119,16 @@ class ReportController extends Controller
         }        
         
         return "Ok";             
+    }
+
+    public function reports()
+    {
+        //
+        return view('reports.reports');
+    }
+
+    public function getReports()
+    {
+        return \DataTables::of(Report::query())->make(true);
     }
 }
