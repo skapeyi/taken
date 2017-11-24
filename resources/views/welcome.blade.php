@@ -82,7 +82,7 @@
                         <label for="message">Message:</label>
                         <textarea name="evidence_url" id="message"></textarea>
                         <div class="submit-area">
-                            <input type="submit" value="make a reservation" id="make_reservation" />
+                            <input type="submit" value="Report Case" id="make_reservation" />
                         </div>
 
 

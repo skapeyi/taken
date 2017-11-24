@@ -20,7 +20,7 @@
 
 
 // Route::resource('/','ContactController');
-Route::resource('/', 'ReportingController');
+Route::resource('/', 'ReportController');
 Route::get('/victims-messages','PagesController@victimsMessage');
 
 
