@@ -119,7 +119,7 @@
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-post">
-                                <a href="#" data-link="2"><i class="fa fa-user-md"></i></a>
+                                <a href="#" data-link="2"><i class="fa fa-user"></i></a>
                                 <h2>Witness Reports</h2>
                                 <p>Taken allows witnesses to report suspicious cases to authorities so the victims can be rescued from their captors through  mobile and SMS applications. </p>
                             </div>
@@ -127,7 +127,7 @@
 
                         <div class="col-md-4 col-sm-6">
                             <div class="about-post">
-                                <a href="#" data-link="4"><i class="fa fa-android"></i></a>
+                                <a href="#" data-link="4"><i class="fa fa-book"></i></a>
                                 <h2>Awareness</h2>
                                 <p>Through the information collected from the various reports, Taken raises awareness about Human Trafficking and areas in which it is most rampant. </p>
                             </div>
@@ -147,14 +147,14 @@
                             </div>
                             <div class="col-md-4 triggerAnimation animated" data-animate="fadeInRight">
                                 <div class="tab-text">
-                                    <h2>24 Hours Service</h2>
+                                    <h2>How To Use</h2>
                                     <ul>
-                                        <li><i class="fa fa-user-md"></i>Donec odio. </li>
-                                        <li><i class="fa fa-ambulance"></i>Quisque volutpat mattis eros. </li>
-                                        <li><i class="fa fa-life-ring"></i>Nullam malesuada erat ut turpis. </li>
-                                        <li><i class="fa fa-magic"></i>Suspendisse urna nibh</li>
+                                        <li><i class="fa fa-life-ring"></i>If you are a victim, send an SMS to 6990 with your details to get assistance. </li>
+                                        <li><i class="fa fa-phone"></i>Type Victim, Name, City, Country where you are, Hotel or nearest land mark.</li>
+                                        <li><i class="fa fa-phone"></i>For witnesses, Type Witness, Name, City, Country where you are, Hotel or nearest land mark.</li>
+                                        <li><i class="fa fa-firefox"></i>You can also fill our a comprehensive web form on this website or use the Taken Mobile Application</li>
                                     </ul>
-                                    <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim </p>
+                                    <p>Don't be silent, Speak Up.</p>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +317,7 @@
                 </div>
                 <div class="statistic-box">
                     <div class="statistic-post">
-                        <i class="fa fa-stethoscope"></i>
+                        <i class="fa fa-user"></i>
                         <h2>Victim Reports</h2>
                         <p><span class="timer" data-from="0" data-to="70"></span></p>
                     </div>
@@ -356,7 +356,7 @@
             <div class="contact-info">
                 <div class="container">
                     <div class="title-section white">
-                        <h1>Contacts</h1>
+                        <h1>Join Our Cause</h1>
                         <span></span>
                     </div>
                     <div class="contact-info-box">
