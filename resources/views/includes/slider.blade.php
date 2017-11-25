@@ -28,7 +28,7 @@
                                 data-splitout="none"
                                 data-elementdelay="0.1"
                                 data-endelementdelay="0.1"
-                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="color:white;">HUMAN TRAFFICKING</span>
+                                style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span style="color:white; font-size: 20px;">HUMAN TRAFFICKING</span>
                             </div>
 
                             <!-- LAYER NR. 2 -->
